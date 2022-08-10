@@ -8,24 +8,33 @@ html {
   font-family: 'Playfair Display', serif;
 }
 
+.background {
+  background-image: url(downtown-orlando.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 .header {
   display: flex;
-  height: 7rem;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.inside-header-container {
+  width: 100%;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #494949;
   padding: 0 3rem;
 }
 
 .logo {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 300;
   color: #EFEEEE;
   letter-spacing: 1px;
-}
-
-.nav-bar {
-  
+  filter: brightness(100%);
 }
 
 .nav-bar a {
@@ -33,5 +42,24 @@ html {
   color: #EFEEEE;
   text-decoration: none;
   font-size: 1.4rem;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.nav-bar a:hover {
+  filter: brightness(120%);
+}
+
+.title-container {
+  text-align: center;
+  padding: 3rem;
+}
+
+.title-container h1 {
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #fff;
 }
