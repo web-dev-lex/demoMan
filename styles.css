@@ -5,9 +5,11 @@
 }
 
 html {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  
 }
 
+/* Home page background */
 .background {
   background-image: url(downtown-orlando.jpg);
   background-size: cover;
@@ -15,6 +17,7 @@ html {
   height: 100vh;
 }
 
+/* Header and nav bar */
 .header {
   display: flex;
   height: 5rem;
@@ -30,6 +33,7 @@ html {
 }
 
 .logo {
+  font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
   font-weight: 300;
   color: #EFEEEE;
@@ -43,7 +47,6 @@ html {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
   transition: 0.3s;
 }
@@ -52,6 +55,7 @@ html {
   filter: brightness(120%);
 }
 
+/* Main title */
 .title-container {
   text-align: center;
   padding: 3rem;
@@ -59,7 +63,42 @@ html {
 
 .title-container h1 {
   font-size: 4rem;
-  font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: #fff;
+}
+
+/* Contact page */
+.contact-background {
+  background-color: #333333;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contact-main-container {
+  display: flex;
+  
+}
+
+.img {
+  padding: 5em;
+}
+
+.img img {
+  width: 600px;
+}
+
+.contact-info {
+  padding: 5em 2em;
+}
+
+.contact-info h3 {
+  color: #EFEEEE;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.contact-info p {
+  color: #EFEEEE;
+  font-size: 1.2rem;
+  padding-top: 1em;
 }
